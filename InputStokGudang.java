@@ -51,7 +51,7 @@ public class InputStokGudang {
         System.out.println("Stok Gudang Rincian Barang");
         System.out.println("##########################");
         
-        // Membulatkan ke dua angka dibelakang koma
+        // Membulatkan angka dibelakang koma
         BigDecimal hargabeli1 = new BigDecimal(hargabeli).setScale
         (2, RoundingMode.CEILING);
         BigDecimal hargajual1 = new BigDecimal(hargajual).setScale
